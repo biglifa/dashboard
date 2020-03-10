@@ -1,6 +1,57 @@
-,eissn,nom_clt,nb_numeros,nb_document,année_création,année_fin
+,issn,nom_clt,nb_numeros,nb_document,année_debut,année_fin
 0,2262-3353,Hommes & Migrations,180,4523,1987,2008
 1,1950-6694,Revue économique,320,6776,1950,2002
 2,1783-1768,Revue Philosophique de Louvain,441,12292,1894,2015
 3,1957-7966,Population,320,12794,1946,2004
 4,1777-5418,Revue Européenne des Migrations Internationales,49,814,1985,2001
+6,1950-6678,Vingtième Siècle. Revue d'histoire,72,3370,1984,2001
+8,1778-7459,Communication & Langages,174,3039,1962,2008
+9,1782-1517,Revue d'économie du développement,31,203,1993,2001
+10,1963-1359,Revue Tiers Monde,181,5775,1960,2006
+11,2275-5195,Bulletin de l'Association de Géographes Français,445,3746,1924,2012
+12,1777-5469,Bulletins et Mémoires de la Société d'Anthropologie de Paris,289,7029,1864,1999
+13,2104-3752,Espace Populations Sociétés,58,1311,1983,2003
+14,1958-5691,Revue française de sociologie,184,4287,1960,2002
+15,1958-8992,Politique étrangère,314,8612,1936,2005
+16,1703-7891,Études internationales,192,242,1970,2019
+17,2540-2544,Revue des Études Anciennes,283,11655,1899,2003
+18,1492-1405,Études françaises,161,216,1965,2019
+19,1708-9069,Études littéraires,135,186,1968,2020
+20,1710-0305,Tangence,85,113,1992,2019
+21,2105-2956,Quaderni,64,861,1987,2008
+28,2117-718,Revue des Études Slaves,183,3864,1921,2012
+30,2111-4412,Chimères. Revue des schizoanalyses,57,941,1987,2006
+31,1705-4591,Revue québécoise de linguistique,44,67,1981,2003
+35,2259-6100,Revue d'études comparatives Est-Ouest,149,1800,1970,2008
+36,2613-2702,Horizons Maghrébins - Le droit à la mémoire,48,1620,1984,2010
+38,1705-6225,Recherches sociographiques,162,222,1960,2019
+40,1985-2006,Géographes associés,34,744,1985,2006
+43,2513-6119,Espace Temps,52,1003,1975,2005
+44,2102-5924,Communications,105,1655,1961,2019
+45,1705-6500,Cinémas,58,87,1990,2018
+47,1958-5926,Littérature,140,1891,1971,2005
+52,1703-7921,Anthropologie et Sociétés,119,163,1976,2019
+55,2105-2581,Économie rurale,263,3329,1949,2004
+56,1953-8111,Revue internationale de droit comparé,274,12914,1949,2016
+59,1969-6981,Enfance,188,2040,1948,2000
+63,2107-0946,Formation Emploi,91,3714,1983,2005
+64,2261-060,Revue des études byzantines,263,9328,1897,2014
+65,1953-812,Revue de l'Art,60,1346,1985,1999
+66,1996-4609,Perspectives Chinoises,108,1840,1992,2010
+67,1492-1391,Philosophiques,92,138,1974,2019
+69,2261-4427,Annales de Normandie,343,3988,1951,2009
+71,1703-8480,Politique et Sociétés,65,90,1995,2019
+75,2101-0226,L'Homme et la société,91,2974,1966,2000
+78,1705-1495,Cahiers québécois de démographie,95,139,1975,2018
+82,1961-8603,Les Cahiers d'Outre-Mer,214,2585,1948,2001
+87,1777-5396,"CEMOTI, Cahiers d'Études sur la Méditerranée Orientale et le monde Turco-Iranien",38,870,1985,2005
+88,2613-2737,Travaux de l'Institut de Géographie de Reims,73,664,1969,2007
+89,2419-8676,Le Monde alpin et rhodanien. Revue régionale d’ethnologie,65,1114,1973,2005
+92,1775-3821,Bulletin hispanique,324,7355,1899,2007
+93,1957-7958,Romantisme,127,3089,1971,2006
+94,2118-724,Spirale - Revue de recherches en éducation,69,1057,1989,2016
+97,1708-8968,Cahiers de géographie du Québec,174,237,1956,2018
+42,1991-2014,Publications de l'Académie des Inscriptions et Belles-Lettres,32,462,1991,2014
+70,1881-2009,Mélanges de l'école française de Rome,287,5531,1881,2009
+84,1983-2011,Études chinoises. 漢學研究,40,1098,1983,2011
+96,1875-2012,Archives Parlementaires de la Révolution Française,35,30411,1875,2012
