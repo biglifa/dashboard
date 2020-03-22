@@ -3,11 +3,10 @@
  ---------------------------------------------------------------
 
 DROP TABLE PAYS_ARTICLE;
-DROP TABLE PAYS_AUTEUR;
+DROP TABLE NATIONALITE;
 DROP TABLE ARTICLE_COMPORTE_MOT;
 DROP TABLE REDIGE;
 DROP TABLE ARTICLE;
-DROP TABLE PAYS_AUTEUR;
 DROP TABLE AUTEUR;
 DROP TABLE COLLECTION;
 
@@ -59,8 +58,8 @@ CREATE TABLE Article(
 ------------------------------------------------------------
 
 CREATE TABLE redige(
-	Numero_article  NUMBER NOT NULL  ,
 	Numero_auteur   VARCHAR2(255) NOT NULL  ,
+	Numero_article  NUMBER NOT NULL  ,
 	CONSTRAINT redige_PK PRIMARY KEY (Numero_article,Numero_auteur),
     CONSTRAINT redige_Article_FK FOREIGN KEY (Numero_article) REFERENCES Article(Numero_article),
     CONSTRAINT redige_Auteur_FK FOREIGN KEY (Numero_auteur) REFERENCES Auteur(Numero_auteur)
@@ -71,20 +70,20 @@ CREATE TABLE redige(
 ------------------------------------------------------------
 
 CREATE TABLE article_comporte_mot(
-	Mot                VARCHAR2 (26)NOT NULL  ,
 	Numero_article     NUMBER NOT NULL  ,
+    Mot                VARCHAR2 (255) NOT NULL  ,
 	frequence_article  NUMBER ,
-	CONSTRAINT article_comporte_mot_PK PRIMARY KEY (Mot,Numero_article),
+	CONSTRAINT article_comporte_mot_PK PRIMARY KEY (Mot, Numero_article),
     CONSTRAINT article_mot_Article_FK FOREIGN KEY (Numero_article) REFERENCES Article(Numero_article)
 );
 
 ------------------------------------------------------------
--- Table: pays_auteur
+-- Table: NATIONALITE
 ------------------------------------------------------------
 
-CREATE TABLE pays_auteur(
-	Nom_pays       VARCHAR2 (255) NOT NULL  ,
+CREATE TABLE NATIONALITE(
 	Numero_auteur  VARCHAR2 (255)  NOT NULL  ,
+	Nom_pays       VARCHAR2 (255) NOT NULL  ,
 	CONSTRAINT pays_auteur_PK PRIMARY KEY (Nom_pays,Numero_auteur),
     CONSTRAINT pays_auteur_Auteur_FK FOREIGN KEY (Numero_auteur) REFERENCES Auteur(Numero_auteur)
 );
@@ -98,3 +97,5 @@ CREATE TABLE pays_article(
 	CONSTRAINT pays_article_PK PRIMARY KEY (Nom_pays,Numero_article),
     CONSTRAINT pays_article_Article_FK FOREIGN KEY (Numero_article) REFERENCES Article(Numero_article)
 );
+
+commit;
